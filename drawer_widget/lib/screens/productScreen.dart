@@ -1,3 +1,4 @@
+import 'package:drawer_widget/screens/homePageScreen.dart';
 import 'package:flutter/material.dart';
 
 class ProductScreen extends StatefulWidget {
@@ -6,7 +7,8 @@ class ProductScreen extends StatefulWidget {
 }
 
 class ProductScreenState extends State<ProductScreen> {
-  static const String routName ="/product";
+  HomePageState homePageState = new HomePageState();
+  static const String routName = "/product";
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -20,5 +22,4 @@ class ProductScreenState extends State<ProductScreen> {
       ),
     );
   }
-
 }
