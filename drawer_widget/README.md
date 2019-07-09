@@ -1,7 +1,8 @@
 # Flutter Drawer Widget
 
-- Drawer widget kullanarak uygulamalarınıza yan menü ekleyebilirsiniz.
-- Bu uygulamada;
+Drawer widget kullanarak uygulamalarınıza yan menü ekleyebilirsiniz.
+ Bu uygulamada;
+ 
 * Drawer Widget
 * Scaffold Widget
 * StatelessWidget
