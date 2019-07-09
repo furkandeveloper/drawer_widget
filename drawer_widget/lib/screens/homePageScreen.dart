@@ -18,6 +18,11 @@ class HomePageState extends State<HomePageScreen> {
           textDirection: TextDirection.ltr,
         ),
       ),
+      body: Container(
+        child: Center(
+          child: Text("Home Page",textDirection: TextDirection.ltr,),
+        ),
+      ),
     );
   }
 }
